@@ -25,6 +25,21 @@ console.log (nombres);
 console.log(nombres,length);
 
 let numeros = ["1","2","3","4"];
-for (let numeros = 0; numeros < numeros.length; numeros 0 ++) {
-    console.log(numeros[numeros]);
+for (let numeros = 0; numeros < numeros.length; numeros++) {
+    console.log = array[numeros];
 }
+/*4*/
+let arreigloNumeros = ('1','2','3','4','5')
+let suma = 0;
+for (let i = 0; i < arreigloNumeros.length; i++) {
+    suma +=arreigloNumeros[i];
+    
+}
+console.log('la suma es'+ suma)
+
+/*5*/
+let palabras = [];
+let palabrasUsuario = prompt('escribe 5 palabras')
+palabras.push(palabrasUsuario);
+console.log(palabras)
+
